@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical">
+  <LinearLayout
+      android:id="@+id/videoRow"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <!--<ImageView-->
+      <!--android:id="@+id/videoListThumbnail"-->
+      <!--android:layout_width="120dp"-->
+      <!--android:layout_height="90dp"-->
+      <!--android:scaleType="centerCrop"-->
+      <!--android:src="https://i.ytimg.com/vi/RR_218EtLJU/default.jpg"></ImageView>-->
+
+      <TextView
+          android:id="@+id/videoListChannel"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/videoListTitle"
+          android:textColor="@color/channelTitle"
+          />
+
+      <TextView
+          android:id="@+id/videoListTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/title"
+          android:textSize="16dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/videoListDesc"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/videoListChannel"/>
+    </RelativeLayout>
+  </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/business_profile_include" />
+
+        </RelativeLayout>
+           <LinearLayout
+               android:id="@+id/lbl1"
+               android:layout_below="@+id/lin1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="WE ACCEPT"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:background="@color/grey"/>
+           </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/lin2"
+            android:layout_below="@+id/lbl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler1"/>
+        </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/lbl2"
+                android:layout_below="@+id/lin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WE SELL"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:background="@color/grey"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_below="@+id/lbl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recycler2"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+        <!--<include layout="@layout/layout_bottom_navigation_view" />-->
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

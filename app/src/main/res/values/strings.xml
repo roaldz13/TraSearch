@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">TraSearch</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="sign_up">Sign up</string>
+    <string name="no_text"> </string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="log_in">Login</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">152929758843526</string>
+    <string name="fb_login_protocol_scheme">fb152929758843526</string>
+    <string name="profile_name">Induce Smile</string>
+    <string name="country_location">Sweden</string>
+
+    <!--web services api key-->
+    <string name="web_services">AIzaSyDvsia0V9CUml-qj5BIhEiOtnMdT27EhMs</string>
+
+    <!--tabs in MapsActivity Bottom Sheet-->
+    <string name="maps_tab_recycling">Recycling Centers</string>
+    <string name="maps_tab_junkyard">Junkyards</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_online">Online</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="profile_names">Display name</string>
+    <string name="induce_smile">Induce Smile</string>
+
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_country">Country</string>
+    <string name="edit_profile_phone">Phone number</string>
+    <string name="edit_profile_hobby">Hobby</string>
+    <string name="select_date">Date</string>
+    <string name="save_edit">Save edit</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--App NAME Header-->
+    <string name="appheader">TraSearch</string>
+
+    <!--map type menu string valuew-->
+    <string name="map_type_none">None</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+
+    <!-- edward's stringssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+    <!-- fragment names -->
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="view_post_fragment">View Post</string>
+    <string name="sign_out_fragment">Sign Out</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="view_profile_fragment">ViewProfile</string>
+    <string name="view_comments_fragment">View Comments</string>
+
+    <!-- dialog names -->
+    <string name="confirm_password_dialog">ConfirmPaswordDialog</string>
+
+    <!-- Firebase messages -->
+    <string name="auth_failed">Failed to Authenticate</string>
+    <string name="auth_success">Authentication Success</string>
+
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_phone_number">phone_number</string>
+    <string name="field_user_id">user_id</string>
+    <string name="field_likes">likes</string>
+    <string name="field_caption">photo_description</string>
+    <string name="field_date_created">date_created</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_tags">quantity</string>
+    <string name="field_image_path">image_path</string>
+    <string name="field_comments">comments</string>
+    <string name="field_comment">comment</string>
+    <string name="field_image_uri">image_uri</string>
+    <string name="field_video_uri">video_uri</string>
+    <string name="field_story_id">story_id</string>
+    <string name="field_views">views</string>
+    <string name="field_duration">duration</string>
+    <string name="field_profile_photo">profile_photo</string>
+    <string name="field_timestamp">timestamp</string>
+
+
+    <!-- photo types -->
+    <string name="new_photo">new_photo</string>
+    <string name="profile_photo">profile_photo</string>
+
+    <!-- Intent Extras -->
+    <string name="calling_activity">calling_activity</string>
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="intent_user">intent_user</string>
+    <string name="user_stories">user_stories</string>
+
+    <!-- Bundle arg names -->
+    <string name="user_account_settings">user_account_settings</string>
+    <string name="activity_number">activity_number</string>
+    <string name="bundle_photo">bundle_photo</string>
+    <string name="bundle_user_account_settings">bundle_user_account_settings</string>
+
+    <!-- activity names -->
+    <string name="profile_activity">Profile Activity</string>
+    <string name="search_activity">Search Activity</string>
+    <string name="home_activity">Home Activity</string>
+
+    <!-- strings -->
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="string_open_camera">Open Camera</string>
+    <string name="string_next">Next</string>
+    <string name="string_share">Share</string>
+
+
+    <!-- JSON values -->
+    <string name="bitmap">bitmap</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="strSecurity">For security purposes every business owner is required to submit a photo of his/her business permit along with a valid ID.</string>
+    <string name="strSecurityNonBus">For security purposes every non-business user is required to submit a valid picture and a selfie along with valid ID.</string>
+    <string name="about">•\tTraSearch is an informative mobile startapp  that allows users to search for articles and videos related to solid waste management. It offers two types of account that the user can choose from when registering – non-business and business. The business account for junk shop business to provide opportunities in finding potential customers and makes trading easier. The non-business let’s environmentalists and recycling enthusiasts to trade materials and even people who just have a lot of scraps lying around in their house. It also has GPS functionality to helps non-business users find nearby junk shops.</string>
+    <string name="policy">TraSearch Privacy Policy We respect the user’s right to privacy and holds responsibility to protecting the privacy of our users and their personal information. This Privacy Policy explains how we store and use the data that we have collected. By registering, you’ve acknowledged that you have read, understood, and consented to all the statements mentioned below: 1. Collection and Usage of Personal Information Personal Information are information that we have collected from users to help identify and differentiate each user. TraSearch may collect personal information from users in various ways, to improve services and performance. 1.1\tRegistration When a user registers an account, he/she is required to provide basic information such as their name, email, phone number, and address. These are necessary information for establishing a user’s profile and helps users recognize one another.  1.2\tConversations To store every conversations ever had between users to serve as evidence whenever incidents of scam or fraud occurs, and will be used for this purpose only. 1.3\tPosts Posts from every users are stored to keep track of anything that contains explicit sexual content, nudity, human and animal abuse, discrimination against race and religion, and offensive and inappropriate content. We also have the authority to delete posts that falls within any of the mentioned categories. TraSearch is not responsible for any loss that may have been caused by the giving out personal information to other users either within or outside the application. We will never message you and ask for your login information or bank account information, but will however contact you through email to answer questions or give announcements. TraSearch will never sell, transfer, or otherwise trade any of your valuable information to other companies. This does not include third parties that helps us in servicing you. We may however release your information if we believe is appropriate, to comply with the law, public safety, or national security.\t We suggest that you thoroughly read through the contents of this policy and only proceed when you have fully understood and agreed to its demands. 2. Changes to the Privacy Policy We reserve the right to make changes to this Privacy Policy if deemed necessary. Any changes to this policy will be notified to the customers by updating the date of when it was last modified. This was last modified on: April 06, 2018 3. Contact Us If there are any questions or confusions regarding the privacy policy that needs clarification, please feel free to email us at officialtrasearch@gmail.com</string>
+
+</resources>

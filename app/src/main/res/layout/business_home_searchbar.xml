@@ -1,0 +1,63 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/profToolBar4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#009688">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <!--<SearchView-->
+                    <!--android:id="@+id/searchV"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_weight="60"-->
+                    <!--android:background="@drawable/searchbar_shape">-->
+
+                <!--</SearchView>-->
+
+                <EditText
+                    android:id="@+id/searchV"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="60"
+                    android:background="@drawable/searchbox"
+                    android:drawableLeft="@drawable/ic_search"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:hint="Search..."
+                    android:textColorHint="#2b2a2a"/>
+
+                <!--<ImageView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_weight="30"-->
+                    <!--android:src="@drawable/ts"/>-->
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="30"
+                    android:layout_height="50dp"
+                    android:src="@drawable/trash"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+</merge>

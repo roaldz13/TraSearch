@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Del Mar\\.ssh\\Desktop\\Edward\\latest\\Capstone42\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-mk-rMK\\values-mk-rMK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\be79052a780291289ca9140a925893b1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,216,283,349,429,511,601,680,757,837",
+                        "endColumns": "87,72,66,65,79,81,89,78,76,79,65",
+                        "endOffsets": "138,211,278,344,424,506,596,675,752,832,898"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\40e4c5dbdb2e01c5c8b8fc324420a12c\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,266,377,487,580,666,764,870,968,1062,1153,1246,1361,1473,1560,1649,1747,1858,1944",
+                        "endColumns": "103,106,110,109,92,85,97,105,97,93,90,92,114,111,86,88,97,110,85,91",
+                        "endOffsets": "154,261,372,482,575,661,759,865,963,1057,1148,1241,1356,1468,1555,1644,1742,1853,1939,2031"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "903,1007,1114,1225,1335,1428,1514,1612,1718,1816,1910,2001,2094,2209,2321,2408,2497,2595,2706,2792",
+                        "endColumns": "103,106,110,109,92,85,97,105,97,93,90,92,114,111,86,88,97,110,85,91",
+                        "endOffsets": "1002,1109,1220,1330,1423,1509,1607,1713,1811,1905,1996,2089,2204,2316,2403,2492,2590,2701,2787,2879"
+                    }
+                }
+            ]
+        }
+    ]
+}

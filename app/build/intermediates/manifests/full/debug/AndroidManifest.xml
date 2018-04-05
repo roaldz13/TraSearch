@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taquio.trasearch6"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <permission
+        android:name="com.example.taquio.trasearch.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.taquio.trasearch.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Optional permission for Analytics to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.taquio.trasearch6.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.taquio.trasearch6.permission.C2D_MESSAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name="com.example.taquio.trasearch.Samok.Trasearch"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/trasearchicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/trasearchicon"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme1" >
+
+        <!-- SPLASH ACTIVITY -->
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.SplashActivity"
+            android:theme="@style/AppTheme2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HOME ACTIVITY -->
+        <activity android:name="com.example.taquio.trasearch.Samok.HomeActivity2" />
+
+        <service android:name="com.example.taquio.trasearch.Samok.FireBaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.RegisterActivity"
+            android:parentActivityName="com.example.taquio.trasearch.Samok.ChooseLayout" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name="com.example.taquio.trasearch.Samok.ActivityLogin" />
+        <activity android:name="com.example.taquio.trasearch.Samok.MainActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.UserProfileActivity" />
+        <activity android:name="com.example.taquio.trasearch.Profile.ProfileActivity" />
+        <activity android:name="com.example.taquio.trasearch.Nearby.NearbyActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.AdminActivity" />
+
+        <!-- <activity android:name=".LoginActivity"/> -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity android:name="com.example.taquio.trasearch.Utils.Donate" />
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.ViewProfile"
+            android:parentActivityName="com.example.taquio.trasearch.Profile.ProfileActivity" />
+        <activity
+            android:name="com.example.taquio.trasearch.Messages.MessagesActivity"
+            android:parentActivityName="com.example.taquio.trasearch.Samok.HomeActivity2" />
+        <activity android:name="com.example.taquio.trasearch.Samok.GuestSearch" />
+        <activity
+            android:name="com.example.taquio.trasearch.Messages.MessageActivity"
+            android:parentActivityName="com.example.taquio.trasearch.Messages.MessagesActivity" />
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.ChooseLayout"
+            android:parentActivityName="com.example.taquio.trasearch.Samok.GuestSearch" />
+        <activity android:name="com.example.taquio.trasearch.Samok.MyProfileActivity" >
+            <intent-filter>
+                <action android:name="com.example.taquio.Samok.Trasearch_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.EditProfileActivity"
+            android:parentActivityName="com.example.taquio.trasearch.Samok.MyProfileActivity" />
+        <activity android:name="com.example.taquio.trasearch.Camera.CameraActivity" />
+        <activity android:name="com.example.taquio.trasearch.Camera.NextActivity" />
+        <activity android:name="com.example.taquio.trasearch.BusinessHome.BusinessHome" />
+        <activity android:name="com.example.taquio.trasearch.BusinessMessages.BusinessMessages" />
+        <activity android:name="com.example.taquio.trasearch.BusinessProfile.BusinessProfile" />
+        <activity android:name="com.example.taquio.trasearch.Samok.BusinessRegActivity" />
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.BusinessRegActivity2"
+            android:parentActivityName="com.example.taquio.trasearch.Samok.BusinessRegActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.SaveItemActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.EditPostItem" />
+        <activity android:name="com.example.taquio.trasearch.Samok.SettingsActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.ForVerification" />
+        <activity android:name="com.example.taquio.trasearch.Samok.GalleryActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.MapActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyByPbiE1UPZbzH4W4B_x_-FqRIb_zoV060" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.example.taquio.trasearch.Utils.PaymentDetails" />
+        <activity android:name="com.example.taquio.trasearch.Samok.ReportActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.UserJunkShopView" />
+        <activity android:name="com.example.taquio.trasearch.Samok.PasswordActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.AdminVerification" />
+        <activity android:name="com.example.taquio.trasearch.Samok.BusMyProfileActivity" />
+        <activity android:name="com.example.taquio.trasearch.BusinessProfile.BusinessBuy" />
+        <activity android:name="com.example.taquio.trasearch.BusinessProfile.BusinessSell" />
+        <activity android:name="com.example.taquio.trasearch.BusinessProfile.BusinessEdit" />
+        <activity android:name="com.example.taquio.trasearch.Samok.BusinessAdd" />
+        <activity android:name="com.example.taquio.trasearch.Guest.GuestHome" />
+        <activity android:name="com.example.taquio.trasearch.Samok.ReportViewActivity" />
+        <activity android:name="com.example.taquio.trasearch.Messages.BusMessagesActivity" />
+        <!-- Sample Loacal Merging -->
+        <activity android:name="com.example.taquio.trasearch.Samok.About" />
+        <activity
+            android:name="com.example.taquio.trasearch.Messages.BusMessageActivity"
+            android:parentActivityName="com.example.taquio.trasearch.Messages.BusMessagesActivity" />
+        <activity android:name="com.example.taquio.trasearch.Samok.AdminJunkShopView" />
+        <activity android:name="com.example.taquio.trasearch.Samok.Tips" />
+        <activity android:name="com.example.taquio.trasearch.Samok.Policy" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:exported="true"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.example.taquio.trasearch6" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.taquio.trasearch6" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.taquio.trasearch6.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.example.taquio.trasearch6.FacebookInitProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

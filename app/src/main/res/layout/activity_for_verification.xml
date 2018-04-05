@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/login_gradient"
+    tools:context="com.example.taquio.trasearch.Samok.ForVerification">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:src="@drawable/trash"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:paddingLeft="5dp"
+        android:text="@string/strSecurityNonBus"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="#ff0000"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:text="Optionally, you can skip this step for now. However you won't be displayed as a verified business owner in order to protect other users."-->
+        <!--/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+        <ImageView
+            android:id="@+id/ver_ID"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="5"
+            android:padding="5dp"
+            android:src="@drawable/imagebackground"/>
+        <ImageView
+            android:id="@+id/ver_Selfie"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="5"
+            android:src="@drawable/imagebackground"
+            android:padding="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        android:weightSum="10">
+        <Button
+            android:id="@+id/ver_IDbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:textColor="@color/white"
+            android:background="@drawable/btn"
+            android:text="Upload Valid ID"/>
+        <Button
+            android:id="@+id/ver_Selfiebtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:textColor="@color/white"
+            android:paddingLeft="5dp"
+            android:background="@drawable/btn"
+            android:drawableLeft="@drawable/ic_selfie"
+            android:text="Upload Selfie"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+        <Button
+            android:id="@+id/ver_UploadExec"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:text="Register"
+            android:textColor="@color/white2"/>
+        <!--<Button-->
+            <!--android:id="@+id/ver_Skipbtn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_weight="5"-->
+            <!--android:background="@drawable/btn"-->
+            <!--android:drawableRight="@drawable/ic_nextarrow"-->
+            <!--android:text="Skip              "-->
+            <!--android:textAlignment="textEnd"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:gravity="end" />-->
+    </RelativeLayout>
+
+</LinearLayout>

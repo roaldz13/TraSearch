@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient">
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/reg2_gradient_background" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/trash" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_weight="85"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:text="Register"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/bsnBusinessName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/ic_busin"
+                android:hint="Business Name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/bsnMail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/icon_email"
+                android:hint="Business Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/bsnPass"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/key"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/bsnConPass"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/key"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/bsnLocation"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/ic_loc"
+                android:hint="Location"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/bsnPhone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:layout_weight="10"-->
+                <!--android:background="@drawable/border"-->
+                <!--android:drawableRight="@drawable/ic_tele"-->
+                <!--android:hint="Telephone No."-->
+                <!--android:inputType="phone"-->
+                <!--android:paddingLeft="15dp"-->
+                <!--android:paddingRight="10dp"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textColorHint="#ffffff"-->
+                <!--android:textStyle="bold" />-->
+
+            <EditText
+                android:id="@+id/bsnMobile"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/icon_phone"
+                android:hint="Mobile No."
+                android:inputType="phone"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/registerCont"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="10"
+                android:background="@drawable/btn"
+                android:stateListAnimator="@null"
+                android:drawableRight="@drawable/ic_nextarrow"
+                android:layout_marginTop="5dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="40dp"
+                android:text="Continue"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/regCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="14.2857142857"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

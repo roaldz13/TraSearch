@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taquio.trasearch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <permission
+        android:name="com.example.taquio.trasearch.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.taquio.trasearch.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".Samok.Trasearch"
+        android:allowBackup="true"
+        android:icon="@drawable/trasearchicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/trasearchicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+
+        <!-- SPLASH ACTIVITY -->
+        <activity
+            android:name=".Samok.SplashActivity"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HOME ACTIVITY -->
+        <activity android:name=".Samok.HomeActivity2" />
+
+        <service android:name=".Samok.FireBaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+
+        <activity
+            android:name=".Samok.RegisterActivity"
+            android:parentActivityName=".Samok.ChooseLayout" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".Samok.ActivityLogin" />
+        <activity android:name=".Samok.MainActivity" />
+        <activity android:name=".Samok.UserProfileActivity" />
+        <activity android:name=".Profile.ProfileActivity" />
+        <activity android:name=".Nearby.NearbyActivity" />
+        <activity android:name=".Samok.AdminActivity" />
+
+        <!-- <activity android:name=".LoginActivity"/> -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity android:name=".Utils.Donate" />
+        <activity
+            android:name=".Samok.ViewProfile"
+            android:parentActivityName=".Profile.ProfileActivity" />
+        <activity
+            android:name=".Messages.MessagesActivity"
+            android:parentActivityName=".Samok.HomeActivity2" />
+        <activity android:name=".Samok.GuestSearch" />
+        <activity
+            android:name=".Messages.MessageActivity"
+            android:parentActivityName=".Messages.MessagesActivity" />
+        <activity
+            android:name=".Samok.ChooseLayout"
+            android:parentActivityName=".Samok.GuestSearch" />
+        <activity android:name=".Samok.MyProfileActivity">
+            <intent-filter>
+                <action android:name="com.example.taquio.Samok.Trasearch_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Samok.EditProfileActivity"
+            android:parentActivityName=".Samok.MyProfileActivity" />
+        <activity android:name=".Camera.CameraActivity" />
+        <activity android:name=".Camera.NextActivity" />
+        <activity android:name=".BusinessHome.BusinessHome" />
+        <activity android:name=".BusinessMessages.BusinessMessages" />
+        <activity android:name=".BusinessProfile.BusinessProfile" />
+        <activity android:name=".Samok.BusinessRegActivity" />
+        <activity
+            android:name=".Samok.BusinessRegActivity2"
+            android:parentActivityName=".Samok.BusinessRegActivity" />
+        <activity android:name=".Samok.SaveItemActivity" />
+        <activity android:name=".Samok.EditPostItem" />
+        <activity android:name=".Samok.SettingsActivity" />
+        <activity android:name=".Samok.ForVerification" />
+        <activity android:name=".Samok.GalleryActivity" />
+        <activity android:name=".Samok.MapActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyByPbiE1UPZbzH4W4B_x_-FqRIb_zoV060" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Utils.PaymentDetails" />
+        <activity android:name=".Samok.ReportActivity" />
+        <activity android:name=".Samok.UserJunkShopView" />
+        <activity android:name=".Samok.PasswordActivity" />
+        <activity android:name=".Samok.AdminVerification" />
+        <activity android:name=".Samok.BusMyProfileActivity" />
+        <activity android:name=".BusinessProfile.BusinessBuy" />
+        <activity android:name=".BusinessProfile.BusinessSell" />
+        <activity android:name=".BusinessProfile.BusinessEdit" />
+        <activity android:name=".Samok.BusinessAdd" />
+        <activity android:name=".Guest.GuestHome" />
+        <activity android:name=".Samok.ReportViewActivity" />
+        <activity android:name=".Messages.BusMessagesActivity" />
+        <!-- Sample Loacal Merging -->
+        <activity android:name=".Samok.About" />
+        <activity
+            android:name=".Messages.BusMessageActivity"
+            android:parentActivityName=".Messages.BusMessagesActivity" />
+        <activity android:name=".Samok.AdminJunkShopView" />
+        <activity android:name=".Samok.Tips" />
+        <activity android:name=".Samok.Policy"></activity>
+    </application>
+
+</manifest>

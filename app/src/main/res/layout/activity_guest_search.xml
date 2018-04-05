@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:gravity="center">
+
+            <!--<ImageView-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:src="@drawable/ts"/>-->
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/trash"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_weight="85"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="320dp"
+                android:layout_height="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/searchbox"
+                android:drawableLeft="@drawable/ic_search"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColorHint="#000000"
+                />
+
+            <!--<Button-->
+                <!--android:id="@+id/searchExec"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="getArticles"-->
+                <!--android:text="Search Article"/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/activateTHIS"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Search Video"-->
+                <!--android:onClick="getVideos"-->
+                <!--/>-->
+            <RadioGroup
+                android:id="@+id/searchMethod"
+                android:layout_marginTop="15dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/webCrawl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Web Crawl"/>
+                <RadioButton
+                    android:id="@+id/databaseSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Database Search"
+                    android:checked="true"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/guest_SignIn"
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="10"
+                android:background="@drawable/btn"
+                android:stateListAnimator="@null"
+                android:text="Sign In"
+                android:textColor="#ffff"/>
+
+            <Button
+                android:id="@+id/guest_Reg"
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/btn"
+                android:stateListAnimator="@null"
+                android:text="Register"
+                android:textColor="#ffff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/floating_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

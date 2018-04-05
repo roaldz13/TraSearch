@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.taquio.trasearch.Utils.SquareImageView
+                android:id="@+id/post_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"/>
+            <RelativeLayout
+                android:id="@+id/relLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/post_image"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/direct_message"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="90dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/dm"
+                    android:visibility="visible"
+                    />
+                <ImageView
+                    android:id="@+id/bookmark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/bookmark_nofill"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/details"
+                android:layout_below="@+id/post_image"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/image_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_likes"
+                    android:layout_margin="15dp"
+                    android:text="dasdasdasdasdas"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/item_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_caption"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18sp"/>
+            </RelativeLayout>
+            <android.support.v4.widget.Space
+            android:id="@+id/space"
+            android:layout_below="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+            <RelativeLayout
+                android:id="@+id/relLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details"
+                android:background="@color/white">
+
+                <!--<TextView-->
+                    <!--android:id="@+id/image_likes"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="#123 likes"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:textColor="#00ff3c"-->
+                    <!--android:textSize="18sp"/>-->
+
+
+
+                <RelativeLayout
+                    android:id="@+id/blank"
+                    android:background="@color/grey"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="10dp">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MEET THE OWNER   |"/>
+                    <TextView
+                        android:id="@+id/image_time_posted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="3 DAYS AGO"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_below="@+id/blank"
+                    android:id="@+id/relLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_photo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                       android:layout_alignParentTop="true"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="25dp"
+                        app:civ_border_color="@color/black"
+                        app:civ_border_width="0.5dp" />
+
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/profile_photo"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="10dp"
+                        android:text="juan dela cruz"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/ivEllipses"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ic_ellipses" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/layout_bottom_navigation_view"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
