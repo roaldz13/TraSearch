@@ -234,7 +234,23 @@ public class Spider {
     return articleList;
   }
 
+  public HashMap<Integer, CrawledData> convertVideoToHashMap (HashMap<Integer, CrawledData> filteredData) {
+    HashMap<Integer, CrawledData> data = new HashMap<>();
+    for(int x = 0; x < filteredData.size(); x++) {
+      CrawledData value = filteredData.get(x);
+      data.put(x, value);
+    }
+    return data;
+  }
 
+  public HashMap<Integer, ArticleCrawledData> convertArticleToHashMap (HashMap<Integer, ArticleCrawledData> filteredData) {
+    HashMap<Integer, ArticleCrawledData> data = new HashMap<>();
+    for(int x = 0; x < filteredData.size(); x++) {
+      ArticleCrawledData value = filteredData.get(x);
+      data.put(x, value);
+    }
+    return data;
+  }
 
   public List<ArticleCrawledData> searchArticle (String searchWord) {
     SpiderLeg spider = new SpiderLeg();

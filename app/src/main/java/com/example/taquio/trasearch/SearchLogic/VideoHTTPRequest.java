@@ -173,4 +173,12 @@ public class VideoHTTPRequest {
     }
     return videoList;
   }
+  public HashMap<Integer, VideoData> convertToHashMap (HashMap<Integer, VideoData> filteredData) {
+    HashMap<Integer, VideoData> data = new HashMap<>();
+    for(int x = 0; x < filteredData.size(); x++) {
+      VideoData value = filteredData.get(x);
+      data.put(x, value);
+    }
+    return data;
+  }
 }

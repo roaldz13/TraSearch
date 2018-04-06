@@ -201,4 +201,14 @@ public class ArticleHTTPRequest {
     }
     return articleList;
   }
+
+  public HashMap<Integer, ArticleData> convertToHashMap (HashMap<Integer, ArticleData> filteredData) {
+    HashMap<Integer, ArticleData> data = new HashMap<>();
+    for(int x = 0; x < filteredData.size(); x++) {
+      ArticleData value = filteredData.get(x);
+      data.put(x, value);
+    }
+    return data;
+  }
+
 }
