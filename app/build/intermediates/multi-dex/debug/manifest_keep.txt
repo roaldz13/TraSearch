@@ -1,3 +1,3 @@
-# Referenced at C:\Users\Del Mar\.ssh\Desktop\Edward\latest\Capstone42\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:61
+# Referenced at F:\Git_Lab Projects\FinalTrash\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:61
 -keep class com.example.taquio.trasearch.Samok.Trasearch { <init>(...); }
 

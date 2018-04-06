@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Del Mar\\.ssh\\Desktop\\Edward\\latest\\Capstone42\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
+            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\be79052a780291289ca9140a925893b1\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,140,215,293,365,444,532,613,700,779,861",
-                        "endColumns": "84,74,77,71,78,87,80,86,78,81,70",
-                        "endOffsets": "135,210,288,360,439,527,608,695,774,856,927"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\40e4c5dbdb2e01c5c8b8fc324420a12c\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "932,1041,1153,1269,1383,1482,1588,1685,1800,1897,1992,2091,2183,2299,2411,2506,2591,2694,2805,2890",
                         "endColumns": "108,111,115,113,98,105,96,114,96,94,98,91,115,111,94,84,102,110,84,96",
                         "endOffsets": "1036,1148,1264,1378,1477,1583,1680,1795,1892,1987,2086,2178,2294,2406,2501,2586,2689,2800,2885,2982"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-uz-rUZ\\values-uz-rUZ.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,140,215,293,365,444,532,613,700,779,861",
+                        "endColumns": "84,74,77,71,78,87,80,86,78,81,70",
+                        "endOffsets": "135,210,288,360,439,527,608,695,774,856,927"
                     }
                 }
             ]

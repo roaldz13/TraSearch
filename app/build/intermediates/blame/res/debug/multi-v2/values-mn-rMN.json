@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Del Mar\\.ssh\\Desktop\\Edward\\latest\\Capstone42\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn-rMN\\values-mn-rMN.xml",
+            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn-rMN\\values-mn-rMN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\40e4c5dbdb2e01c5c8b8fc324420a12c\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,141,216,289,359,434,515,602,682,758,827",
+                        "endColumns": "85,74,72,69,74,80,86,79,75,68,67",
+                        "endOffsets": "136,211,284,354,429,510,597,677,753,822,890"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "895,1002,1116,1233,1345,1445,1529,1625,1737,1832,1926,2016,2108,2221,2334,2424,2510,2607,2717,2803",
                         "endColumns": "106,113,116,111,99,83,95,111,94,93,89,91,112,112,89,85,96,109,85,98",
                         "endOffsets": "997,1111,1228,1340,1440,1524,1620,1732,1827,1921,2011,2103,2216,2329,2419,2505,2602,2712,2798,2897"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\be79052a780291289ca9140a925893b1\\res\\values-mn-rMN\\values-mn-rMN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,141,216,289,359,434,515,602,682,758,827",
-                        "endColumns": "85,74,72,69,74,80,86,79,75,68,67",
-                        "endOffsets": "136,211,284,354,429,510,597,677,753,822,890"
                     }
                 }
             ]

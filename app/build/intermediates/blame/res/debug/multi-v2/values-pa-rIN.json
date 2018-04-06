@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Del Mar\\.ssh\\Desktop\\Edward\\latest\\Capstone42\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa-rIN\\values-pa-rIN.xml",
+            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa-rIN\\values-pa-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\40e4c5dbdb2e01c5c8b8fc324420a12c\\res\\values-pa-rIN\\values-pa-rIN.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-pa-rIN\\values-pa-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,202,268,336,411,491,576,653,727,796",
+                        "endColumns": "76,69,65,67,74,79,84,76,73,68,64",
+                        "endOffsets": "127,197,263,331,406,486,571,648,722,791,856"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-pa-rIN\\values-pa-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "861,958,1066,1182,1295,1395,1485,1576,1682,1780,1875,1971,2067,2180,2298,2381,2465,2553,2653,2738",
                         "endColumns": "96,107,115,112,99,89,90,105,97,94,95,95,112,117,82,83,87,99,84,94",
                         "endOffsets": "953,1061,1177,1290,1390,1480,1571,1677,1775,1870,1966,2062,2175,2293,2376,2460,2548,2648,2733,2828"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\be79052a780291289ca9140a925893b1\\res\\values-pa-rIN\\values-pa-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,132,202,268,336,411,491,576,653,727,796",
-                        "endColumns": "76,69,65,67,74,79,84,76,73,68,64",
-                        "endOffsets": "127,197,263,331,406,486,571,648,722,791,856"
                     }
                 }
             ]

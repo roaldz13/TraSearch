@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Del Mar\\.ssh\\Desktop\\Edward\\latest\\Capstone42\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
+            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\40e4c5dbdb2e01c5c8b8fc324420a12c\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,213,280,347,425,507,591,672,749,827",
+                        "endColumns": "80,76,66,66,77,81,83,80,76,77,68",
+                        "endOffsets": "131,208,275,342,420,502,586,667,744,822,891"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "896,1004,1122,1252,1367,1482,1570,1669,1786,1884,1979,2080,2171,2294,2406,2490,2573,2672,2772,2859",
                         "endColumns": "107,117,129,114,114,87,98,116,97,94,100,90,122,111,83,82,98,99,86,99",
                         "endOffsets": "999,1117,1247,1362,1477,1565,1664,1781,1879,1974,2075,2166,2289,2401,2485,2568,2667,2767,2854,2954"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\be79052a780291289ca9140a925893b1\\res\\values-ka-rGE\\values-ka-rGE.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,136,213,280,347,425,507,591,672,749,827",
-                        "endColumns": "80,76,66,66,77,81,83,80,76,77,68",
-                        "endOffsets": "131,208,275,342,420,502,586,667,744,822,891"
                     }
                 }
             ]

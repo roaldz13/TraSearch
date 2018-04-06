@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Del Mar\\.ssh\\Desktop\\Edward\\latest\\Capstone42\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hy-rAM\\values-hy-rAM.xml",
+            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hy-rAM\\values-hy-rAM.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\40e4c5dbdb2e01c5c8b8fc324420a12c\\res\\values-hy-rAM\\values-hy-rAM.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-hy-rAM\\values-hy-rAM.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,139,207,279,349,421,504,578,656,730,800",
+                        "endColumns": "83,67,71,69,71,82,73,77,73,69,70",
+                        "endOffsets": "134,202,274,344,416,499,573,651,725,795,866"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-hy-rAM\\values-hy-rAM.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "871,977,1097,1219,1340,1435,1522,1617,1726,1822,1916,2007,2103,2223,2338,2422,2508,2609,2724,2812",
                         "endColumns": "105,119,121,120,94,86,94,108,95,93,90,95,119,114,83,85,100,114,87,92",
                         "endOffsets": "972,1092,1214,1335,1430,1517,1612,1721,1817,1911,2002,2098,2218,2333,2417,2503,2604,2719,2807,2900"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Del Mar\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\be79052a780291289ca9140a925893b1\\res\\values-hy-rAM\\values-hy-rAM.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,139,207,279,349,421,504,578,656,730,800",
-                        "endColumns": "83,67,71,69,71,82,73,77,73,69,70",
-                        "endOffsets": "134,202,274,344,416,499,573,651,725,795,866"
                     }
                 }
             ]
