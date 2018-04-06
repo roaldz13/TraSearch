@@ -1,4 +1,0 @@
-#Fri Apr 06 08:39:23 CST 2018
-base.0=F\:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
