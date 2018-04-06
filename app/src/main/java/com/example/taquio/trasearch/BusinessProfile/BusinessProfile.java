@@ -20,6 +20,7 @@ import com.example.taquio.trasearch.BusinessHome.BusinessHome;
 import com.example.taquio.trasearch.BusinessHome.BusinessItemsFragment;
 import com.example.taquio.trasearch.BusinessHome.BusinessVideoFragment;
 import com.example.taquio.trasearch.R;
+import com.example.taquio.trasearch.Samok.AdminVerification;
 import com.example.taquio.trasearch.Samok.BusMyProfileActivity;
 import com.example.taquio.trasearch.Samok.HomeActivity2;
 import com.example.taquio.trasearch.Samok.MyProfileActivity;
@@ -186,6 +187,18 @@ public class BusinessProfile extends AppCompatActivity {
                         });
                 verifier = dataSnapshot.child("isVerified").getValue().toString();
 
+                if(verifier.equals(false)){
+                    if(dataSnapshot.child("userType").equals("business")){
+                        notVerifiedLabel.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                startActivity(new Intent(getApplicationContext(), AdminVerification.class)
+                                        .putExtra("user_id", FirebaseAuth.getInstance().getCurrentUser().getUid()));
+                            }
+                        });
+                    }
+
+                }
                 if(verifier.equals("true")) {
                     verify.setVisibility(View.VISIBLE);
                     verifiedLabel.setVisibility(View.VISIBLE);

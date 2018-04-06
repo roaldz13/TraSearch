@@ -56,7 +56,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
         cmdFeedback = findViewById(R.id.btnFeedback);
-        cmdFeedback.setText(Html.fromHtml("<a href=\"mailto:officialtrasearch@gmail.com\">Send Feedback</a>"));
+        cmdFeedback.setText(Html.fromHtml("<a href=\"mailto:edward.sampayan@gmail.com\">Send Feedback</a>"));
         cmdFeedback.setMovementMethod(LinkMovementMethod.getInstance());
 
         cmdlogout.setOnClickListener(new View.OnClickListener() {

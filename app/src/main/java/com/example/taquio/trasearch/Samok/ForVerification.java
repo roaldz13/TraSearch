@@ -10,7 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.taquio.trasearch.R;
@@ -46,11 +48,24 @@ public class ForVerification extends AppCompatActivity {
     private String mCurrentUser;
     String mail, pass, name, address, image;
     String imageThumb, token, number, id, type, verify;
+    CheckBox box;
+    TextView txv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_for_verification);
         refIDs();
+        txv = findViewById(R.id.tvPolicy);
+        box = findViewById(R.id.cbPolicy);
+        if(box.isChecked()){
+            box.setChecked(true);
+        }
+        txv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
         mImageStorage = FirebaseStorage.getInstance().getReference();
         mAuth = FirebaseAuth.getInstance();
 //        mCurrentUser = mAuth.getCurrentUser();

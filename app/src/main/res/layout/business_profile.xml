@@ -238,9 +238,11 @@
         <LinearLayout
             android:layout_below="@+id/bProfileRel2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="34"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp">
 
             <include layout="@layout/layout_business_center_viewpager"/>
 

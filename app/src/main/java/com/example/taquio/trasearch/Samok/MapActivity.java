@@ -155,7 +155,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
         databaseReference = FirebaseDatabase.getInstance().getReference();
 
         if (googleServicesAvailable()) {
-            Toast.makeText(this, "Map is Good!", Toast.LENGTH_LONG).show();
+//            Toast.makeText(this, "Map is Good!", Toast.LENGTH_LONG).show();
             setContentView(R.layout.activity_map);
 
             if (mgoogleClient == null) {
@@ -474,7 +474,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                                 Location = dataSnapshot.child("bsnLocation").getValue().toString();
 //                                String Phone = dataSnapshot.child("bsnPhone").getValue().toString();
                                 String Mobile = dataSnapshot.child("bsnMobile").getValue().toString();
-                                Contact = "Location: " + Location + "\n" + " / Mobile: " + Mobile;
+                                Contact = " " + Location ;
 
                                 addMarker(convertToLatLng(Location), Name, Contact);
                             }

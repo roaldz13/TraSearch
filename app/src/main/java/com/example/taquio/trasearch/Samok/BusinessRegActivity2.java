@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -62,10 +63,24 @@ public class BusinessRegActivity2 extends AppCompatActivity {
     Boolean flag = false;
     DatabaseReference current_user_db;
     Map userDetails;
+    CheckBox box;
+    TextView txv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.business_register2);
+
+        txv = findViewById(R.id.tvPolicy);
+        box = findViewById(R.id.cbPolicy);
+        if(box.isChecked()){
+            box.setChecked(true);
+        }
+        txv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
         bsnMail = getIntent().getExtras().getString("EMAIL");
         bsnPass = getIntent().getExtras().getString("PASS");

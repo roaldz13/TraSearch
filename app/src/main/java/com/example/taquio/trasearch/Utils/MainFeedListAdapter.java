@@ -194,7 +194,7 @@ public class MainFeedListAdapter extends ArrayAdapter<Photo> {
 //                            holder.mprofileImage);
                     Picasso.with(getContext()).load(singleSnapshot.getValue(User.class).getImage())
                             .networkPolicy(NetworkPolicy.OFFLINE)
-                            .placeholder(R.drawable.no_image)
+                            .placeholder(R.drawable.man)
                             .into(holder.mprofileImage, new Callback() {
                                 @Override
                                 public void onSuccess() {
@@ -205,7 +205,7 @@ public class MainFeedListAdapter extends ArrayAdapter<Photo> {
                                 public void onError() {
                                     Picasso.with(getContext())
                                             .load(singleSnapshot.getValue(User.class).getImage())
-                                            .placeholder(R.drawable.no_image)
+                                            .placeholder(R.drawable.man)
                                             .into(holder.mprofileImage);
                                 }
                             });

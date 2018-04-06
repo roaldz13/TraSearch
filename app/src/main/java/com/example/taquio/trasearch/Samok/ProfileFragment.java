@@ -193,7 +193,18 @@ public class ProfileFragment extends Fragment {
     }
     private void setupGridView(){
         Log.d(TAG, "setupGridView: Setting up image grid.");
+        DatabaseReference reference2 = FirebaseDatabase.getInstance().getReference();
+        reference2.child("Users").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
 
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
         DatabaseReference reference1 = FirebaseDatabase.getInstance().getReference();
         reference1.child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                 .addValueEventListener(new ValueEventListener() {
@@ -201,6 +212,18 @@ public class ProfileFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 verifier = dataSnapshot.child("isVerified").getValue(Boolean.class);
 
+                if(verifier.equals(false)){
+                    if(dataSnapshot.child("userType").equals("non-business")){
+                        notVerifiedLabel.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                startActivity(new Intent(getContext(), AdminVerification.class)
+                                        .putExtra("user_id", FirebaseAuth.getInstance().getCurrentUser().getUid()));
+                            }
+                        });
+                    }
+
+                }
                 if(verifier.equals(true)) {
                     verify.setVisibility(View.VISIBLE);
                     verifiedLabel.setVisibility(View.VISIBLE);
