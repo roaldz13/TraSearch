@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "outputFile": "D:\\StudioProjects\\Final\\TraSearch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.8.0.aar\\295a7c7acf1758647e329553ed109488\\res\\values-en-rSG\\values.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.8.0.aar\\27f28e32db00bcc387e82bff1becd14e\\res\\values-en-rSG\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

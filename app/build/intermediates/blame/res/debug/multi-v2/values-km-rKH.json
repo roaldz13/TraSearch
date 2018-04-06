@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km-rKH\\values-km-rKH.xml",
+            "outputFile": "D:\\StudioProjects\\Final\\TraSearch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km-rKH\\values-km-rKH.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-km-rKH\\values-km-rKH.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\ca8538157404009db96d89fcbb1e184a\\res\\values-km-rKH\\values-km-rKH.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-km-rKH\\values-km-rKH.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\228ad2bf88bcabb2f20c4b2cfc3b74d0\\res\\values-km-rKH\\values-km-rKH.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

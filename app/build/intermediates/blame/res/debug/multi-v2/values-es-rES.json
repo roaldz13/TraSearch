@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "outputFile": "D:\\StudioProjects\\Final\\TraSearch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.30.0.aar\\bcf95debcce94e7214f73f3a66f110df\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.30.0.aar\\c4aaebe7d99301439644b25e206188ec\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

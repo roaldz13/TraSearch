@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
+            "outputFile": "D:\\StudioProjects\\Final\\TraSearch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-my-rMM\\values-my-rMM.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\ca8538157404009db96d89fcbb1e184a\\res\\values-my-rMM\\values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,139,213,283,352,429,520,604,696,769,851",
+                        "endColumns": "83,73,69,68,76,90,83,91,72,81,66",
+                        "endOffsets": "134,208,278,347,424,515,599,691,764,846,913"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\228ad2bf88bcabb2f20c4b2cfc3b74d0\\res\\values-my-rMM\\values-my-rMM.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "918,1026,1135,1244,1355,1461,1554,1648,1759,1857,1961,2063,2160,2273,2392,2479,2564,2668,2786,2870",
                         "endColumns": "107,108,108,110,105,92,93,110,97,103,101,96,112,118,86,84,103,117,83,100",
                         "endOffsets": "1021,1130,1239,1350,1456,1549,1643,1754,1852,1956,2058,2155,2268,2387,2474,2559,2663,2781,2865,2966"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,139,213,283,352,429,520,604,696,769,851",
-                        "endColumns": "83,73,69,68,76,90,83,91,72,81,66",
-                        "endOffsets": "134,208,278,347,424,515,599,691,764,846,913"
                     }
                 }
             ]

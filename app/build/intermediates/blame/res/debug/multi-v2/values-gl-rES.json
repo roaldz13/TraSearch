@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
+            "outputFile": "D:\\StudioProjects\\Final\\TraSearch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\9cd5e471b3ab05029702d71a2c39509d\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\ca8538157404009db96d89fcbb1e184a\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,211,279,350,429,508,586,663,735,820",
+                        "endColumns": "80,74,67,70,78,78,77,76,71,84,65",
+                        "endOffsets": "131,206,274,345,424,503,581,658,730,815,881"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\228ad2bf88bcabb2f20c4b2cfc3b74d0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "886,990,1100,1212,1327,1428,1512,1611,1718,1815,1911,2006,2099,2220,2340,2424,2510,2601,2717,2804",
                         "endColumns": "103,109,111,114,100,83,98,106,96,95,94,92,120,119,83,85,90,115,86,98",
                         "endOffsets": "985,1095,1207,1322,1423,1507,1606,1713,1810,1906,2001,2094,2215,2335,2419,2505,2596,2712,2799,2898"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.6.0.aar\\cb037d246c85c548a867459b4f04d14b\\res\\values-gl-rES\\values-gl-rES.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,136,211,279,350,429,508,586,663,735,820",
-                        "endColumns": "80,74,67,70,78,78,77,76,71,84,65",
-                        "endOffsets": "131,206,274,345,424,503,581,658,730,815,881"
                     }
                 }
             ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "D:\\StudioProjects\\Final\\TraSearch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-11.8.0.aar\\6c7224b6bc908a688699f5356fb0b7ca\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-11.8.0.aar\\98a567a270e0821d3397487373f2b315\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.6.0.aar\\eb4bfd4649f9160cd6f540e8db7f6597\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\Taquio\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.6.0.aar\\dc19011b8679db01b9172b3bfbef6f8f\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,19",
                         "startColumns": "4,4",
