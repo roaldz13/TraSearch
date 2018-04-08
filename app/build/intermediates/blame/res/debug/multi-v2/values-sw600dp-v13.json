@@ -4,23 +4,6 @@
             "outputFile": "F:\\Git_Lab Projects\\FinalTrash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\dd0d51ea5cf44cde3431f57cb1eaa611\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    },
-                    "to": {
-                        "startLines": "662,663,664,665,666,667,668,669",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "28613,28682,28751,28821,28895,28971,29030,29101",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "28677,28746,28816,28890,28966,29025,29096,29164"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\7c03107c24cb01330026409174c7d0df\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -54,6 +37,23 @@
                         "startOffsets": "29728",
                         "endColumns": "51",
                         "endOffsets": "29775"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dd2c1ef095e58a1661b9f21b88a8d367\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "662,663,664,665,666,667,668,669",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "28613,28682,28751,28821,28895,28971,29030,29101",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "28677,28746,28816,28890,28966,29025,29096,29164"
                     }
                 },
                 {

@@ -602,7 +602,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
                     break;
                 case "frombottomnav":
-                    Toast.makeText(this, "From Buttom Nav: " + data, Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(this, "From Buttom Nav: " + data, Toast.LENGTH_SHORT).show();
                     getDeviceLocation();
                     mgoogleMap.setMyLocationEnabled(true);
                     readDatabase();

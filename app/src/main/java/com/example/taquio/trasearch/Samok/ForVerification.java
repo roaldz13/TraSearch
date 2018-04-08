@@ -1,16 +1,20 @@
 package com.example.taquio.trasearch.Samok;
 
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -63,7 +67,56 @@ public class ForVerification extends AppCompatActivity {
         txv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//                final AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+////        builder.setTitle("CHOOSE AN ACTION");
+//                builder.setItems(new CharSequence[]
+//                                {""},
+//                        new DialogInterface.OnClickListener() {
+//                            public void onClick(DialogInterface dialog, int which) {
+//                                // The 'which' argument contains the index position
+//                                // of the selected item
+//                                switch (which) {
+//                                    case 0:
+////                                        Toast.makeText(mContext, "CLICK!", Toast.LENGTH_SHORT).show();
+//                                        LayoutInflater li = LayoutInflater.from(getApplicationContext());
+//                                        View promptView = li.inflate(R.layout.policy1, null);
+//                                        AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+//                                        builder.setView(promptView);
+////                                        final EditText userInput = (EditText) promptView.findViewById(R.id.dialogDesc);
+//                                        builder.setCancelable(false);
+//                                        builder.setPositiveButton("", new DialogInterface.OnClickListener()
+//                                        {
+//                                            public void onClick(DialogInterface dialog, int id)
+//                                            {
+//
+//                                            }
+//                                        });
+//                                        builder.setNegativeButton("",new DialogInterface.OnClickListener()
+//                                        {
+//                                            public void onClick(DialogInterface dialog, int which)
+//                                            {
+//                                                dialog.dismiss();
+//                                            }
+//                                        });
+//                                        builder.create().show();
+//                                        break;
+//                                }
+//                            }
+//                        });
+//                builder.create().show();
+                Log.d(TAG, "onClick: Policy Clicked");
 
+                final android.app.AlertDialog.Builder alertDialog = new android.app.AlertDialog.Builder(ForVerification.this);
+                alertDialog.setTitle("Policy");
+                alertDialog.setMessage(R.string.policy);
+
+                alertDialog.setPositiveButton("Close", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+                alertDialog.show();
             }
         });
         mImageStorage = FirebaseStorage.getInstance().getReference();

@@ -66,7 +66,6 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/trasearchicon"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme1" >
 
         <!-- SPLASH ACTIVITY -->
@@ -99,7 +98,9 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="com.example.taquio.trasearch.Samok.ActivityLogin" />
+        <activity
+            android:name="com.example.taquio.trasearch.Samok.ActivityLogin"
+            android:parentActivityName="com.example.taquio.trasearch.Samok.GuestSearch" />
         <activity android:name="com.example.taquio.trasearch.Samok.MainActivity" />
         <activity android:name="com.example.taquio.trasearch.Samok.UserProfileActivity" />
         <activity android:name="com.example.taquio.trasearch.Profile.ProfileActivity" />

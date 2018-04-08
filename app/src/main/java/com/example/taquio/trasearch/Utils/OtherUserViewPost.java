@@ -74,6 +74,7 @@ public class OtherUserViewPost extends Fragment {
     private StringBuilder mUsers;
     private String mLikesString = "";
     private User mCurrentUser;
+    Boolean saveLogic = false;
     public OtherUserViewPost(){
         super();
         setArguments(new Bundle());
@@ -296,61 +297,84 @@ public class OtherUserViewPost extends Fragment {
         mBookmark.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                FirebaseDatabase.getInstance().getReference().child("Bookmarks")
-                        .addListenerForSingleValueEvent(new ValueEventListener() {
-                            @Override
-                            public void onDataChange(DataSnapshot dataSnapshot) {
+                saveLogic = true;
+                Log.d(TAG, "onClick: BookMark Clicked");
+//                Toast.makeText(mContext, "Bookmarked", Toast.LENGTH_SHORT).show();
+//                if (saveLogic){
+//                    Toast.makeText(mContext, "Bookmarked 2", Toast.LENGTH_SHORT).show();
+                myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
 //                                    Toast.makeText(getContext(), "Datasnapshot " + dataSnapshot.getValue(), Toast.LENGTH_LONG).show();
 
-                                if(!dataSnapshot.exists()){
+                        if (!dataSnapshot.child("Bookmarks").hasChild(FirebaseAuth.getInstance().getCurrentUser().getUid())) {
+                            Log.d(TAG, "onDataChange: Bookmarked no exist");
+                            myRef.child("Bookmarks")
+                                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                    .child(mPhoto.getPhoto_id())
+                                    .setValue("photoID");
+                            Toast.makeText(getContext(), "Saved", Toast.LENGTH_SHORT).show();
+                            saveLogic = true;
+                        }
+                        else if(!dataSnapshot.child("Bookmarks").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).hasChild(mPhoto.getPhoto_id()))
+                        {
+                            Log.d(TAG, "onDataChange: Bookmarked no exist");
+                            myRef.child("Bookmarks")
+                                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                    .child(mPhoto.getPhoto_id())
+                                    .setValue("photoID");
+                            Toast.makeText(getContext(), "Saved", Toast.LENGTH_SHORT).show();
+                            saveLogic = true;
+                        }
+                        else
+                        {
+                            saveLogic = false;
+                            Log.d(TAG, "onDataChange: Bookmark Exist");
+                            for (DataSnapshot snapshot : dataSnapshot.child("Bookmarks").getChildren()) {
+                                Log.d(TAG, "snap: " + snapshot.getKey());
+                                if (FirebaseAuth.getInstance().getCurrentUser().getUid().equals(snapshot.getKey())) {
+                                    Log.d(TAG, "comparator: " + snapshot.child(snapshot.getKey()).hasChild(mPhoto.getPhoto_id()));
+                                    Log.d(TAG, "kompara: " + snapshot.child(snapshot.getKey()));
+                                    Log.d(TAG, "tocompare: " + snapshot.child(snapshot.getKey()).child(mPhoto.getPhoto_id()).getKey().equals(mPhoto.getPhoto_id()));
 
-                                    myRef.child("Bookmarks")
-                                            .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                            .child(mPhoto.getPhoto_id())
-                                            .setValue("photoID");
-                                    Toast.makeText(getContext(), "Saved",Toast.LENGTH_SHORT).show();
-                                }
-                                for(DataSnapshot snapshot: dataSnapshot.getChildren()){
-                                    Log.d(TAG, "snap: " + snapshot.getKey() );
-                                    if(FirebaseAuth.getInstance().getCurrentUser().getUid().equals(snapshot.getKey())){
-                                        Log.d(TAG, "comparator: " + snapshot.child(snapshot.getKey()).hasChild(mPhoto.getPhoto_id()));
-                                        Log.d(TAG, "kompara: " + snapshot.child(snapshot.getKey()));
-                                        Log.d(TAG, "tocompare: " + snapshot.child(snapshot.getKey()).child(mPhoto.getPhoto_id()).getKey().equals(mPhoto.getPhoto_id()));
+                                    for (DataSnapshot sp : snapshot.getChildren()) {
+                                        Log.d(TAG, "child: " + sp.getKey());
+                                        if (sp.getKey().equals(mPhoto.getPhoto_id())) {
+                                            Log.d(TAG, "removemark: " + mPhoto.getPhoto_id());
 
-                                        for(DataSnapshot sp: snapshot.getChildren()){
-                                            Log.d(TAG, "child: " + sp.getKey());
-                                            if(sp.getKey().equals(mPhoto.getPhoto_id())){
-                                                Log.d(TAG, "removemark: " + mPhoto.getPhoto_id() );
-
-                                                isBookmark = true;
-                                                myRef.child("Bookmarks")
-                                                        .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                                        .child(mPhoto.getPhoto_id())
-                                                        .removeValue();
-                                                Toast.makeText(getContext(), "Unsave",Toast.LENGTH_SHORT).show();
-                                            }
-
-                                        }
-                                        if(!isBookmark){
-                                            Log.d(TAG, "addmark: " + mPhoto.getPhoto_id() );
+                                            isBookmark = true;
                                             myRef.child("Bookmarks")
                                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                                     .child(mPhoto.getPhoto_id())
-                                                    .setValue("photoID");
-                                            Toast.makeText(getContext(), "Saved",Toast.LENGTH_SHORT).show();
+
+                                                    .removeValue();
+                                            Toast.makeText(getContext(), "Unsave", Toast.LENGTH_SHORT).show();
+                                            saveLogic =false;
                                         }
+
+                                    }
+                                    if (!isBookmark) {
+                                        Log.d(TAG, "addmark: " + mPhoto.getPhoto_id());
+                                        myRef.child("Bookmarks")
+                                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                                .child(mPhoto.getPhoto_id())
+                                                .setValue("photoID");
+                                        Toast.makeText(getContext(), "Saved", Toast.LENGTH_SHORT).show();
+                                        saveLogic = false;
                                     }
                                 }
-
-
                             }
+                        }
 
-                            @Override
-                            public void onCancelled(DatabaseError databaseError) {
 
-                            }
-                        });
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+//                }
 
 
             }

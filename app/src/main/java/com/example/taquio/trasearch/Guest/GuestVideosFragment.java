@@ -22,6 +22,12 @@ import com.example.taquio.trasearch.Samok.SpiderDataAdapter;
 import com.example.taquio.trasearch.SearchLogic.VideoData;
 import com.example.taquio.trasearch.SearchLogic.VideoDataAdapter;
 import com.example.taquio.trasearch.SearchLogic.VideoHTTPRequest;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,6 +49,7 @@ public class GuestVideosFragment extends Fragment {
   private RecyclerView recyclerView;
   private VideoDataAdapter mVideoAdapter;
   private SpiderDataAdapter mCrawledAdapter;
+  private DatabaseReference videosDatabse;
 
 
   public GuestVideosFragment() {}
@@ -52,6 +59,7 @@ public class GuestVideosFragment extends Fragment {
     View view = inflater.inflate(R.layout.activity_guest_videos_fragment, container, false);
     GuestHome activity = (GuestHome)getActivity();
     Bundle result = activity.sendVideoData();
+    videosDatabse = FirebaseDatabase.getInstance().getReference().child("TraSearch");
     searchQuery = result.getString("searchQuery");
     search_method = result.getBoolean("searchMethod");
     if (!searchQuery.isEmpty()) {
@@ -95,12 +103,74 @@ public class GuestVideosFragment extends Fragment {
       }
     });
     executor.shutdown();
+
+
     try {
       VideoHTTPRequest req = new VideoHTTPRequest();
-      HashMap<Integer, VideoData> videoData;
+      final HashMap<Integer, VideoData> videoData;
 //            StringBuilder sb = new StringBuilder();
 //            videoData = future.get();
       videoDataList =  future.get();
+      for (int x = 0; x < videoDataList.size(); x++) {
+        VideoData value = videoDataList.get(x);
+        VideoData tobeSaved = new VideoData();
+        tobeSaved.setVideoId(value.getVideoId());
+        tobeSaved.setChannelTitle(value.getChannelTitle());
+        tobeSaved.setDefaultThumbUrl(value.getDefaultThumbUrl());
+        tobeSaved.setDescription(value.getDescription());
+        tobeSaved.setTitle(value.getTitle());
+        videosDatabse.child("Videos").child(searchQuery).child(value.getVideoId()).setValue(tobeSaved);
+      }
+
+//      videosDatabse.child("Videos").child(searchQuery).addValueEventListener(new ValueEventListener() {
+//        @Override
+//        public void onDataChange(DataSnapshot dataSnapshot) {
+//          for (DataSnapshot dataSnapshot1:dataSnapshot.getChildren())
+//          {
+//            VideoData videoData1 = new VideoData();
+////            HashMap<String, VideoData> objectMap = (HashMap<String, VideoData>) dataSnapshot1.getValue();
+//            HashMap<String, VideoData> objectMap = new HashMap<>();
+//            objectMap = (HashMap<String, VideoData>) dataSnapshot.getValue();
+//            HashMap<Integer, VideoData> data = new HashMap<>();
+////            List<String> key = new LinkedList<>(objectMap.keySet());
+//            int x = 0;
+//            for (String index: objectMap.keySet()) {
+//              VideoData value = objectMap.get(index);
+////              VideoData value = VideoData();
+////              value.setVideoId(objectMap.get(index));
+//              data.put(x, value);
+//              x++;
+//            }
+//            Log.d(TAG, "onDataChange: Object Map: "+objectMap);
+////            try {
+////              videoData1.setTitle(objectMap.get("title").toString());
+////              videoData1.setDescription(objectMap.get("description").toString());
+////              videoData1.setDefaultThumbUrl(objectMap.get("defaultThumbUrl").toString());
+////              videoData1.setChannelTitle(objectMap.get("channelTitle").toString());
+////              videoData1.setVideoId(objectMap.get("videoId").toString());
+////            }catch(NullPointerException e){
+////              Log.e(TAG, "onDataChange: NullPointerException: " + e.getMessage() );
+////            }
+////            VideoHTTPRequest videoHTTPRequest = new VideoHTTPRequest();
+////            int index = 0;
+////            for (String key: objectMap.keySet()) {
+////              VideoData value = objectMap.get(key);
+////              data.put(index, value);
+////              index++;
+////            }
+//
+////            VideoHTTPRequest request = new VideoHTTPRequest();
+////            videoDataList = request.convertToListDatabase(objectMap);
+//            Log.d(TAG, "onDataChange: "+videoDataList);
+//          }
+//        }
+//
+//        @Override
+//        public void onCancelled(DatabaseError databaseError) {
+//
+//        }
+//      });
+
 //            for (VideoData video: this.videoDataList) {
 //                String title = video.getTitle();
 //                sb.append(title + "\n");

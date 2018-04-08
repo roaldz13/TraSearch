@@ -11,6 +11,17 @@ public class VideoData {
   private String channelTitle;
   private String defaultThumbUrl;
 
+  @Override
+  public String toString() {
+    return "VideoData{" +
+            "title='" + title + '\'' +
+            ", videoId='" + videoId + '\'' +
+            ", description='" + description + '\'' +
+            ", channelTitle='" + channelTitle + '\'' +
+            ", defaultThumbUrl='" + defaultThumbUrl + '\'' +
+            '}';
+  }
+
   public VideoData() {
   }
   public VideoData(String title, String videoId, String description, String channelTitle, String defaultThumbUrl) {

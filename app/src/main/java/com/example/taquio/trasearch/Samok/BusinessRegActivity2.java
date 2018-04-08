@@ -2,17 +2,22 @@ package com.example.taquio.trasearch.Samok;
 
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,6 +38,8 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import org.w3c.dom.Text;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
@@ -43,7 +50,7 @@ import java.util.Map;
  */
 
 public class BusinessRegActivity2 extends AppCompatActivity {
-
+    private static final String TAG = "BusinessRegActivity2";
     String bsnMail,
             bsnPass,
             bsnConPass,
@@ -78,11 +85,63 @@ public class BusinessRegActivity2 extends AppCompatActivity {
         txv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//                final AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+////        builder.setTitle("CHOOSE AN ACTION");
+//                Log.d("dsads", "onClick: ");
+//                builder.setItems(new CharSequence[]
+//                                {""},
+//                        new DialogInterface.OnClickListener() {
+//                            public void onClick(DialogInterface dialog, int which) {
+//                                // The 'which' argument contains the index position
+//                                // of the selected item
+//                                switch (which) {
+//                                    case 0:
+////                                        Toast.makeText(mContext, "CLICK!", Toast.LENGTH_SHORT).show();
+//                                        LayoutInflater li = LayoutInflater.from(getApplicationContext());
+//                                        View promptView = li.inflate(R.layout.policy1, null);
+//                                        AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+//                                        builder.setView(promptView);
+////                                        final EditText userInput = (EditText) promptView.findViewById(R.id.dialogDesc);
+//                                        builder.setCancelable(false);
+//                                        builder.setPositiveButton("", new DialogInterface.OnClickListener()
+//                                        {
+//                                            public void onClick(DialogInterface dialog, int id)
+//                                            {
+//
+//                                            }
+//                                        });
+//                                        builder.setNegativeButton("",new DialogInterface.OnClickListener()
+//                                        {
+//                                            public void onClick(DialogInterface dialog, int which)
+//                                            {
+//                                                dialog.dismiss();
+//                                            }
+//                                        });
+//                                        builder.create().show();
+//                                        break;
+//                                }
+//                            }
+//                        });
+//                builder.create().show();
+                Log.d(TAG, "onClick: Policy Clicked");
 
+                final android.app.AlertDialog.Builder alertDialog = new android.app.AlertDialog.Builder(BusinessRegActivity2.this);
+                alertDialog.setTitle("Policy");
+                alertDialog.setMessage(R.string.policy);
+
+                alertDialog.setPositiveButton("Close", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+                alertDialog.show();
             }
+
         });
 
-        bsnMail = getIntent().getExtras().getString("EMAIL");
+
+                bsnMail = getIntent().getExtras().getString("EMAIL");
         bsnPass = getIntent().getExtras().getString("PASS");
         bsnConPass = getIntent().getExtras().getString("CONPASS");
         bsnBusinessName = getIntent().getExtras().getString("BUSINESSNAME");

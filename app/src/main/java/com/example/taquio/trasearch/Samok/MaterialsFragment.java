@@ -171,15 +171,15 @@ public class MaterialsFragment extends Fragment {
                                    MaterialName.setHint(dataSnapshot.child("name").getValue().toString());
                                    MaterialName.setLayoutParams(lp);
                                    alertDialog.setView(MaterialName);
-                                   alertDialog.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
-                                       @Override
-                                       public void onClick(DialogInterface dialog, int which) {
-                                           Log.d(TAG, "onClick: Deleted");
-                                           DataSnapshot firstChild = dataSnapshot.getChildren().iterator().next();
-                                           firstChild.getRef().removeValue();
-//                                           mMaterials.child(materialsPushIDs).child("name").removeValue();
-                                       }
-                                   });
+//                                   alertDialog.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+//                                       @Override
+//                                       public void onClick(DialogInterface dialog, int which) {
+//                                           Log.d(TAG, "onClick: Deleted");
+//                                           DataSnapshot firstChild = dataSnapshot.getChildren().iterator().next();
+//                                           firstChild.getRef().removeValue();
+////                                           mMaterials.child(materialsPushIDs).child("name").removeValue();
+//                                       }
+//                                   });
                                    alertDialog.setNegativeButton("Update", new DialogInterface.OnClickListener() {
                                        @Override
                                        public void onClick(DialogInterface dialog, int which) {

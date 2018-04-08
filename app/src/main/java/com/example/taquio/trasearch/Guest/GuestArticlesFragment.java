@@ -21,7 +21,10 @@ import com.example.taquio.trasearch.Samok.SpiderArticleAdapter;
 import com.example.taquio.trasearch.SearchLogic.ArticleData;
 import com.example.taquio.trasearch.SearchLogic.ArticleDataAdapter;
 import com.example.taquio.trasearch.SearchLogic.ArticleHTTPRequest;
+import com.example.taquio.trasearch.SearchLogic.VideoData;
 import com.example.taquio.trasearch.SearchLogic.VideoHTTPRequest;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -41,6 +44,7 @@ public class GuestArticlesFragment extends Fragment {
   private RecyclerView recyclerView;
   private ArticleDataAdapter mArticleDataAdapter;
   private SpiderArticleAdapter mCrawledArticleAdapter;
+  private DatabaseReference articleDatabase;
 
   public GuestArticlesFragment() {}
   @Nullable
@@ -49,6 +53,7 @@ public class GuestArticlesFragment extends Fragment {
     View view = inflater.inflate(R.layout.activity_guest_articles_fragment, container, false);
     GuestHome activity = (GuestHome)getActivity();
     Bundle result = activity.sendVideoData();
+    articleDatabase = FirebaseDatabase.getInstance().getReference().child("TraSearch");
     searchQuery = result.getString("searchQuery");
     search_method = result.getBoolean("searchMethod");
 
@@ -88,11 +93,27 @@ public class GuestArticlesFragment extends Fragment {
     });
     executor.shutdown();
     try {
+
+
+
       ArticleHTTPRequest req = new ArticleHTTPRequest();
       HashMap<Integer, ArticleData> articleDatas;
       StringBuilder sb = new StringBuilder();
 //            articleDatas = future.get();
       articleDataList = future.get();
+      for (int x = 0; x < articleDataList.size(); x++) {
+        ArticleData value = articleDataList.get(x);
+        ArticleData tobeSaved = new ArticleData();
+        tobeSaved.setArticleBody(value.getArticleBody());
+        tobeSaved.setArticleURL(value.getArticleURL());
+        tobeSaved.setDescription(value.getDescription());
+        tobeSaved.setName(value.getName());
+        tobeSaved.setUrl(value.getUrl());
+        articleDatabase.child("Articles").child(searchQuery).push().setValue(tobeSaved);
+      }
+
+
+
       for (ArticleData value: this.articleDataList) {
         String name = value.getName();
         sb.append(name + "\n");

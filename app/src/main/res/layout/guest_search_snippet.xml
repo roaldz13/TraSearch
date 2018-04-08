@@ -25,7 +25,6 @@
                     android:paddingLeft="15dp"
                     android:background="@drawable/searchbox"
                     android:layout_gravity="center_vertical"
-                    android:focusableInTouchMode="true"
                     android:iconifiedByDefault="true"
                     android:imeOptions="actionSearch"
                     android:inputType="text">

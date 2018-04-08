@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
 MERGED from [com.github.dmallcott:DismissibleImageView:1.0.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\DismissibleImageView-1.0.1.aar\8827beb8f84f59e4a0935f8153d62147\AndroidManifest.xml:2:1-17:12
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\AndroidImagePopup-1.2.1.aar\2cf7a80c01dbe63b971f0c79c59b5239\AndroidManifest.xml:2:1-17:12
 MERGED from [com.facebook.android:facebook-login:4.30.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\facebook-login-4.30.0.aar\bcf95debcce94e7214f73f3a66f110df\AndroidManifest.xml:21:1-31:12
@@ -21,7 +21,7 @@ MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\User\.gradle\ca
 MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.1.9] C:\Users\User\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-1.1.9.aar\bdbaf63b9be0f9e52065c9b2e175c015\AndroidManifest.xml:2:1-14:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\1c742b9ce653a72a69de3292ddd4ec8c\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\7c03107c24cb01330026409174c7d0df\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\dd0d51ea5cf44cde3431f57cb1eaa611\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dd2c1ef095e58a1661b9f21b88a8d367\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\02794c32d528d0b223fcfd30287c8b40\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\1f50a21bf6edbefcca818392968c28ac\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wallet:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.8.0.aar\295a7c7acf1758647e329553ed109488\AndroidManifest.xml:17:1-22:12
@@ -84,26 +84,26 @@ MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.0] C:\Users\User\.g
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\537439fd1b733f6c94e3db799fda6b2c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f036aca1139a4e3e8cbc6d67afed37e3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\PhotoView-2.1.3.aar\711060bf1a75744bc4dde7ea04db9ac8\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\fcbf98e0fc25fb83d39c4317f8cbd882\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.6.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\glide-4.6.1.aar\8e07fefef2ecdb6378538aa49a4f4d98\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\fba6899bed1cc45005e095d4f64babcd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\11eedf8f0c185221aff72d955ed788e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5bf4222311f2ed2a2f537a2757974567\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f45453edca1f3165b5a9fcfd6189c3f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\759f4aa79e18bf12685908f81ea06814\AndroidManifest.xml:17:1-22:12
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\74899b060eff7f985927563e6252a3a6\AndroidManifest.xml:2:1-28:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7bfdbdac6ee4a706093da074067819d4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.sdp:sdp-android:1.0.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.3.aar\3d6327c383d59a9e3cdf94bf8b01c919\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.android:facebook-core:4.30.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\facebook-core-4.30.0.aar\60da98fded03c1b9a781a8812a2d4325\AndroidManifest.xml:21:1-45:12
 MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\9de1bc53e5ff15e76cefb3a5a9761846\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\b337f020e3a88723d0db2b15aa35b555\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\29c1e5a9ed9e4f22e1b6717ce79d775e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b381ba7f5c8deda45df0cb4d2d5beb34\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\789b38f77bb90219102f398c1612ae69\AndroidManifest.xml:17:1-22:12
 MERGED from [q.rorbin:badgeview:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.0.aar\485342d842b79513383fe2a7a6aece08\AndroidManifest.xml:2:1-13:12
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\986309b0d1c5c01c7d535208e4363653\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\08a26bb51d33dd37ee67c5c41ce23f43\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\3837ba83e7033b8e5c2cb18776f198af\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.6.1.aar\0dba356bcec76bcc8d2b86399f87a3a4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:transition:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\5708b6abd45735f7a21a220ab55c4f53\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:percent:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\percent-25.3.1.aar\b63fb118e6b9aa8e73bfb6a9bdf66df9\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\3078fb9a7733ec916c5389d7194d6cfa\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\a1d0ce62f07d4dc7f4e2e99efd7e8a34\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\71977d7843179d5af2bc04b259b30b67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f722b6a276d07fe4124677bf085eb4bf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\5ea3eede2e9b0be11618e95f525672e8\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\34808fc3258352a9a71e1de18cbbea18\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\52b014b67401ab4ff72f230d800d39e7\AndroidManifest.xml:2:1-6:12
@@ -159,20 +159,20 @@ MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\User
 MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.8.0.aar\ae63a654e7f65adb2db37faf929b186a\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.8.0.aar\d8e96254bf543b9ca958f1eabd46a577\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c12866bb607d7fe22c554848a833c23c\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
+INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
 	package
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
 		INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-158:12
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:1-159:12
 		INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:2:11-69
@@ -289,7 +289,7 @@ MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\User\.gr
 	android:required
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:30:9-32
 application
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:32:5-156:19
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:32:5-157:19
 MERGED from [com.github.dmallcott:DismissibleImageView:1.0.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\DismissibleImageView-1.0.1.aar\8827beb8f84f59e4a0935f8153d62147\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.dmallcott:DismissibleImageView:1.0.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\DismissibleImageView-1.0.1.aar\8827beb8f84f59e4a0935f8153d62147\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\AndroidImagePopup-1.2.1.aar\2cf7a80c01dbe63b971f0c79c59b5239\AndroidManifest.xml:11:5-15:19
@@ -573,223 +573,225 @@ ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:68:9-
 	android:name
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:69:13-76
 activity#com.example.taquio.trasearch.Samok.ActivityLogin
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:71:9-57
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:71:9-72:62
+	android:parentActivityName
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:72:13-60
 	android:name
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:71:19-54
 activity#com.example.taquio.trasearch.Samok.MainActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:72:9-56
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:73:9-56
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:72:19-53
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:73:19-53
 activity#com.example.taquio.trasearch.Samok.UserProfileActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:73:9-63
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:74:9-63
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:73:19-60
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:74:19-60
 activity#com.example.taquio.trasearch.Profile.ProfileActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:74:9-61
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:75:9-61
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:74:19-58
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:75:19-58
 activity#com.example.taquio.trasearch.Nearby.NearbyActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:75:9-59
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:76:9-59
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:75:19-56
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:76:19-56
 activity#com.example.taquio.trasearch.Samok.AdminActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:76:9-57
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:77:9-57
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:76:19-54
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:77:19-54
 activity#com.example.taquio.trasearch.Utils.Donate
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:88:9-50
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:89:9-50
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:88:19-47
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:89:19-47
 activity#com.example.taquio.trasearch.Samok.ViewProfile
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:89:9-91:69
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:90:9-92:69
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:91:13-66
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:92:13-66
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:90:13-46
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:91:13-46
 activity#com.example.taquio.trasearch.Messages.MessagesActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:92:9-94:65
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:93:9-95:65
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:94:13-62
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:95:13-62
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:93:13-54
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:94:13-54
 activity#com.example.taquio.trasearch.Samok.GuestSearch
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:95:9-55
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:96:9-55
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:95:19-52
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:96:19-52
 activity#com.example.taquio.trasearch.Messages.MessageActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:96:9-98:71
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:97:9-99:71
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:98:13-68
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:99:13-68
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:97:13-53
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:98:13-53
 activity#com.example.taquio.trasearch.Samok.ChooseLayout
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:99:9-101:63
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:100:9-102:63
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:101:13-60
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:102:13-60
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:100:13-47
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:101:13-47
 activity#com.example.taquio.trasearch.Samok.MyProfileActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:102:9-108:20
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:103:9-109:20
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:102:19-58
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:103:19-58
 intent-filter#android.intent.category.DEFAULT+com.example.taquio.Samok.Trasearch_TARGET_NOTIFICATION
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:103:13-107:29
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:104:13-108:29
 action#com.example.taquio.Samok.Trasearch_TARGET_NOTIFICATION
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:104:17-97
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:105:17-97
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:104:25-94
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:105:25-94
 category#android.intent.category.DEFAULT
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:106:17-76
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:107:17-76
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:106:27-73
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:107:27-73
 activity#com.example.taquio.trasearch.Samok.EditProfileActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:109:9-111:69
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:110:9-112:69
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:111:13-66
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:112:13-66
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:110:13-54
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:111:13-54
 activity#com.example.taquio.trasearch.Camera.CameraActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:112:9-59
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:113:9-59
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:112:19-56
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:113:19-56
 activity#com.example.taquio.trasearch.Camera.NextActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:113:9-57
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:114:9-57
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:113:19-54
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:114:19-54
 activity#com.example.taquio.trasearch.BusinessHome.BusinessHome
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:114:9-63
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:115:9-63
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:114:19-60
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:115:19-60
 activity#com.example.taquio.trasearch.BusinessMessages.BusinessMessages
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:115:9-71
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:116:9-71
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:115:19-68
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:116:19-68
 activity#com.example.taquio.trasearch.BusinessProfile.BusinessProfile
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:116:9-69
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:117:9-69
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:116:19-66
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:117:19-66
 activity#com.example.taquio.trasearch.Samok.BusinessRegActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:117:9-63
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:118:9-63
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:117:19-60
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:118:19-60
 activity#com.example.taquio.trasearch.Samok.BusinessRegActivity2
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:118:9-120:71
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:119:9-121:71
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:120:13-68
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:121:13-68
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:119:13-55
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:120:13-55
 activity#com.example.taquio.trasearch.Samok.SaveItemActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:121:9-60
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:122:9-60
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:121:19-57
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:122:19-57
 activity#com.example.taquio.trasearch.Samok.EditPostItem
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:122:9-56
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:123:9-56
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:122:19-53
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:123:19-53
 activity#com.example.taquio.trasearch.Samok.SettingsActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:123:9-60
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:124:9-60
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:123:19-57
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:124:19-57
 activity#com.example.taquio.trasearch.Samok.ForVerification
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:124:9-59
-	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:124:19-56
-activity#com.example.taquio.trasearch.Samok.GalleryActivity
 ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:125:9-59
 	android:name
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:125:19-56
+activity#com.example.taquio.trasearch.Samok.GalleryActivity
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:126:9-59
+	android:name
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:126:19-56
 activity#com.example.taquio.trasearch.Samok.MapActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:126:9-55
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:127:9-55
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:126:19-52
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:127:19-52
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:128:9-130:71
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:129:9-131:71
 	android:value
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:130:13-68
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:131:13-68
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:129:13-62
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:130:13-62
 meta-data#com.google.android.gms.version
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:131:9-133:69
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:132:9-134:69
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\65e43a65415bd61e6ed78ed73478db46\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\65e43a65415bd61e6ed78ed73478db46\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:133:13-66
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:134:13-66
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:132:13-58
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:133:13-58
 activity#com.example.taquio.trasearch.Utils.PaymentDetails
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:135:9-58
-	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:135:19-55
-activity#com.example.taquio.trasearch.Samok.ReportActivity
 ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:136:9-58
 	android:name
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:136:19-55
-activity#com.example.taquio.trasearch.Samok.UserJunkShopView
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:137:9-60
+activity#com.example.taquio.trasearch.Samok.ReportActivity
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:137:9-58
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:137:19-57
-activity#com.example.taquio.trasearch.Samok.PasswordActivity
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:137:19-55
+activity#com.example.taquio.trasearch.Samok.UserJunkShopView
 ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:138:9-60
 	android:name
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:138:19-57
+activity#com.example.taquio.trasearch.Samok.PasswordActivity
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:139:9-60
+	android:name
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:139:19-57
 activity#com.example.taquio.trasearch.Samok.AdminVerification
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:139:9-61
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:140:9-61
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:139:19-58
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:140:19-58
 activity#com.example.taquio.trasearch.Samok.BusMyProfileActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:140:9-64
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:141:9-64
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:140:19-61
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:141:19-61
 activity#com.example.taquio.trasearch.BusinessProfile.BusinessBuy
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:141:9-65
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:142:9-65
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:141:19-62
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:142:19-62
 activity#com.example.taquio.trasearch.BusinessProfile.BusinessSell
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:142:9-66
-	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:142:19-63
-activity#com.example.taquio.trasearch.BusinessProfile.BusinessEdit
 ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:143:9-66
 	android:name
 		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:143:19-63
+activity#com.example.taquio.trasearch.BusinessProfile.BusinessEdit
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:144:9-66
+	android:name
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:144:19-63
 activity#com.example.taquio.trasearch.Samok.BusinessAdd
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:144:9-55
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:145:9-55
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:144:19-52
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:145:19-52
 activity#com.example.taquio.trasearch.Guest.GuestHome
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:145:9-53
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:146:9-53
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:145:19-50
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:146:19-50
 activity#com.example.taquio.trasearch.Samok.ReportViewActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:146:9-62
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:147:9-62
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:146:19-59
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:147:19-59
 activity#com.example.taquio.trasearch.Messages.BusMessagesActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:147:9-66
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:148:9-66
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:147:19-63
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:148:19-63
 activity#com.example.taquio.trasearch.Samok.About
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:149:9-49
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:150:9-49
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:149:19-46
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:150:19-46
 activity#com.example.taquio.trasearch.Messages.BusMessageActivity
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:150:9-152:74
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:151:9-153:74
 	android:parentActivityName
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:152:13-71
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:153:13-71
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:151:13-56
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:152:13-56
 activity#com.example.taquio.trasearch.Samok.AdminJunkShopView
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:153:9-61
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:154:9-61
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:153:19-58
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:154:19-58
 activity#com.example.taquio.trasearch.Samok.Tips
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:154:9-48
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:155:9-48
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:154:19-45
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:155:19-45
 activity#com.example.taquio.trasearch.Samok.Policy
-ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:155:9-59
+ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:156:9-59
 	android:name
-		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:155:19-47
+		ADDED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml:156:19-47
 uses-sdk
 INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Git_Lab Projects\FinalTrash\app\src\main\AndroidManifest.xml
@@ -828,8 +830,8 @@ MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\User\.gradle\cac
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\1c742b9ce653a72a69de3292ddd4ec8c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\7c03107c24cb01330026409174c7d0df\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\7c03107c24cb01330026409174c7d0df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\dd0d51ea5cf44cde3431f57cb1eaa611\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\dd0d51ea5cf44cde3431f57cb1eaa611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dd2c1ef095e58a1661b9f21b88a8d367\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dd2c1ef095e58a1661b9f21b88a8d367\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\02794c32d528d0b223fcfd30287c8b40\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\02794c32d528d0b223fcfd30287c8b40\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\1f50a21bf6edbefcca818392968c28ac\AndroidManifest.xml:20:5-44
@@ -954,14 +956,14 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Us
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f036aca1139a4e3e8cbc6d67afed37e3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\PhotoView-2.1.3.aar\711060bf1a75744bc4dde7ea04db9ac8\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\PhotoView-2.1.3.aar\711060bf1a75744bc4dde7ea04db9ac8\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\fcbf98e0fc25fb83d39c4317f8cbd882\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\fcbf98e0fc25fb83d39c4317f8cbd882\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.6.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\glide-4.6.1.aar\8e07fefef2ecdb6378538aa49a4f4d98\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bumptech.glide:glide:4.6.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\glide-4.6.1.aar\8e07fefef2ecdb6378538aa49a4f4d98\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\fba6899bed1cc45005e095d4f64babcd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\fba6899bed1cc45005e095d4f64babcd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\11eedf8f0c185221aff72d955ed788e2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\11eedf8f0c185221aff72d955ed788e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5bf4222311f2ed2a2f537a2757974567\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5bf4222311f2ed2a2f537a2757974567\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f45453edca1f3165b5a9fcfd6189c3f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f45453edca1f3165b5a9fcfd6189c3f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\759f4aa79e18bf12685908f81ea06814\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\759f4aa79e18bf12685908f81ea06814\AndroidManifest.xml:20:5-44
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\74899b060eff7f985927563e6252a3a6\AndroidManifest.xml:5:5-7:41
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\74899b060eff7f985927563e6252a3a6\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7bfdbdac6ee4a706093da074067819d4\AndroidManifest.xml:5:5-7:41
@@ -972,18 +974,16 @@ MERGED from [com.facebook.android:facebook-core:4.30.0] C:\Users\User\.gradle\ca
 MERGED from [com.facebook.android:facebook-core:4.30.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\facebook-core-4.30.0.aar\60da98fded03c1b9a781a8812a2d4325\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\9de1bc53e5ff15e76cefb3a5a9761846\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\9de1bc53e5ff15e76cefb3a5a9761846\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\b337f020e3a88723d0db2b15aa35b555\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\b337f020e3a88723d0db2b15aa35b555\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\29c1e5a9ed9e4f22e1b6717ce79d775e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\29c1e5a9ed9e4f22e1b6717ce79d775e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b381ba7f5c8deda45df0cb4d2d5beb34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b381ba7f5c8deda45df0cb4d2d5beb34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\789b38f77bb90219102f398c1612ae69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\789b38f77bb90219102f398c1612ae69\AndroidManifest.xml:20:5-44
 MERGED from [q.rorbin:badgeview:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.0.aar\485342d842b79513383fe2a7a6aece08\AndroidManifest.xml:7:5-9:41
 MERGED from [q.rorbin:badgeview:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.0.aar\485342d842b79513383fe2a7a6aece08\AndroidManifest.xml:7:5-9:41
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\986309b0d1c5c01c7d535208e4363653\AndroidManifest.xml:8:5-10:41
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\986309b0d1c5c01c7d535208e4363653\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\08a26bb51d33dd37ee67c5c41ce23f43\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\08a26bb51d33dd37ee67c5c41ce23f43\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\3837ba83e7033b8e5c2cb18776f198af\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\3837ba83e7033b8e5c2cb18776f198af\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.6.1.aar\0dba356bcec76bcc8d2b86399f87a3a4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.6.1.aar\0dba356bcec76bcc8d2b86399f87a3a4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:transition:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\5708b6abd45735f7a21a220ab55c4f53\AndroidManifest.xml:20:5-44
@@ -992,8 +992,10 @@ MERGED from [com.android.support:percent:25.3.1] C:\Users\User\.gradle\caches\tr
 MERGED from [com.android.support:percent:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\percent-25.3.1.aar\b63fb118e6b9aa8e73bfb6a9bdf66df9\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\3078fb9a7733ec916c5389d7194d6cfa\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\3078fb9a7733ec916c5389d7194d6cfa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\a1d0ce62f07d4dc7f4e2e99efd7e8a34\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\a1d0ce62f07d4dc7f4e2e99efd7e8a34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\71977d7843179d5af2bc04b259b30b67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\71977d7843179d5af2bc04b259b30b67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f722b6a276d07fe4124677bf085eb4bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f722b6a276d07fe4124677bf085eb4bf\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\5ea3eede2e9b0be11618e95f525672e8\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\5ea3eede2e9b0be11618e95f525672e8\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\34808fc3258352a9a71e1de18cbbea18\AndroidManifest.xml:4:5-43

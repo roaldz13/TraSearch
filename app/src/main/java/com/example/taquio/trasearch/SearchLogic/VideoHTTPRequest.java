@@ -173,6 +173,16 @@ public class VideoHTTPRequest {
     }
     return videoList;
   }
+
+  public List<VideoData> convertToListDatabase(HashMap<Object, VideoData> filteredData) {
+    List<VideoData> videoList = new LinkedList<>();
+    for(Object index: filteredData.keySet()) {
+      VideoData value = filteredData.get(index);
+      videoList.add(value);
+    }
+    return videoList;
+  }
+
   public HashMap<Integer, VideoData> convertToHashMap (HashMap<Integer, VideoData> filteredData) {
     HashMap<Integer, VideoData> data = new HashMap<>();
     for(int x = 0; x < filteredData.size(); x++) {

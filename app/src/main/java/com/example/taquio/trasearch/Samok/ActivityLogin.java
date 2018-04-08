@@ -41,6 +41,11 @@ public class ActivityLogin extends AppCompatActivity {
     private DatabaseReference databaseReference,mUserType;
     private DatabaseReference mUserRef;
 
+//    @Override
+//    public void onBackPressed() {
+//        super.onBackPressed();
+//    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
